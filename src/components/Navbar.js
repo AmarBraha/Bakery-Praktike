@@ -4,7 +4,7 @@ import ThemeSwitch from "../components/ThemeSwitch";
 import "./Navbar.css";
 import { CartButton, FavoritesButton } from "./CartFavorites";
 import { User } from "lucide-react";
-import LoginPopup from "./LoginPopup";
+import LoginPopup from "./Login";
 
 
 const Navbar = ({ cart, setCart, favorites, setFavorites, toggleFavorite, setIsCheckoutOpen }) => {
